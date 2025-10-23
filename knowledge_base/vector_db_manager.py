@@ -32,9 +32,7 @@ class VectorDBManager:
             weaviate_url (str): URL of the Weaviate instance.
             collection_name (str): Name of the Weaviate collection.
             api_key (str, optional): Weaviate Cloud Services API Key. Defaults to None.
-            model_name (str, optional): HuggingFace model name for sentence embeddings if
-                                       you want to use an external model instead of Weaviate's.
-                                       If using Weaviate's text2vec-transformers, set this to None.
+            model_name (str, optional): HuggingFace model name for sentence embeddings .
         """
         self.weaviate_url = weaviate_url
         self.collection_name = collection_name
