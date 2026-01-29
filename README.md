@@ -15,7 +15,7 @@ This repository contains a comprehensive framework for automated software vulner
 Before you begin, ensure you have the following installed:
 
 *   **Operating System**: Windows, macOS, or Linux.
-*   **Python**: Version 3.10 or higher.
+*   **Python**: Version 3.10 or 3.11.
 *   **Docker Desktop**: Required for running Neo4j and Weaviate databases.
 *   **Git**: For version control.
 
